@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Basic Calc" duration-ms="16057" started-at="2018-05-20T19:18:57Z" finished-at="2018-05-20T19:19:13Z">
+  <suite name="Basic Calc" duration-ms="18055" started-at="2018-05-20T19:39:28Z" finished-at="2018-05-20T19:39:46Z">
     <groups>
     </groups>
-    <test name="Basic Calc" duration-ms="16057" started-at="2018-05-20T19:18:57Z" finished-at="2018-05-20T19:19:13Z">
-      <class name="com.sm.name.ebayAppium.Basic">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.sm.name.ebayAppium.Basic@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2018-05-21T00:48:57Z" finished-at="2018-05-21T00:48:57Z">
+    <test name="Basic Calc" duration-ms="18055" started-at="2018-05-20T19:39:28Z" finished-at="2018-05-20T19:39:46Z">
+      <class name="com.sm.name.ebayAppium.BasicCalc">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.sm.name.ebayAppium.BasicCalc@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2018-05-21T01:09:28Z" finished-at="2018-05-21T01:09:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testCal()[pri:0, instance:com.sm.name.ebayAppium.Basic@4b9e13df]" name="testCal" duration-ms="13083" started-at="2018-05-21T00:48:57Z" finished-at="2018-05-21T00:49:10Z">
+        <test-method status="PASS" signature="testCal()[pri:0, instance:com.sm.name.ebayAppium.BasicCalc@4b9e13df]" name="testCal" duration-ms="15054" started-at="2018-05-21T01:09:28Z" finished-at="2018-05-21T01:09:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCal -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.sm.name.ebayAppium.Basic@4b9e13df]" name="afterMethod" is-config="true" duration-ms="2945" started-at="2018-05-21T00:49:10Z" finished-at="2018-05-21T00:49:13Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.sm.name.ebayAppium.BasicCalc@4b9e13df]" name="afterMethod" is-config="true" duration-ms="2971" started-at="2018-05-21T01:09:43Z" finished-at="2018-05-21T01:09:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- com.sm.name.ebayAppium.Basic -->
+      </class> <!-- com.sm.name.ebayAppium.BasicCalc -->
     </test> <!-- Basic Calc -->
   </suite> <!-- Basic Calc -->
 </testng-results>

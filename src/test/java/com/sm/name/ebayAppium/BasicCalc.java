@@ -6,7 +6,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.*;
 
 
-public class Basic extends BaseClass  {
+public class BasicCalc extends BaseClass  {
 
 
 @Test
@@ -18,7 +18,7 @@ public void testCal() throws Exception {
 	calc.clickFour();
 	calc.clickEqualsTo();
 	String results=calc.getResult();
-assert results.equals("9"):"Actual value is : "+results+" did not match with expected value: 6";
+assert results.equals("9"):"Actual value is : "+results+" did not match with expected value: 9";
 
 }
 

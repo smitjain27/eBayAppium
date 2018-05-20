@@ -3,7 +3,7 @@
 <suite name="Basic Calc">
   <test verbose="2" name="Basic Calc">
     <classes>
-      <class name="com.sm.name.ebayAppium.Basic"/>
+      <class name="com.sm.name.ebayAppium.BasicCalc"/>
     </classes>
   </test> <!-- Default test -->
 </suite>
