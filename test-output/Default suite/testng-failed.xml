@@ -7,7 +7,6 @@
         <methods>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
-          <include name="teardown"/>
           <include name="testCal"/>
         </methods>
       </class> <!-- com.sm.name.ebayAppium.Basic -->
