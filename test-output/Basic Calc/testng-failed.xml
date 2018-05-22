@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Basic Calc]">
-  <test name="Basic Calc(failed)">
+  <test name="eBaySuite(failed)">
     <classes>
-      <class name="com.sm.name.ebayAppium.BasicCalc">
+      <class name="com.tests.ProductPurchase">
         <methods>
-          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="setUp"/>
           <include name="afterMethod"/>
-          <include name="testCal"/>
         </methods>
-      </class> <!-- com.sm.name.ebayAppium.BasicCalc -->
+      </class> <!-- com.tests.ProductPurchase -->
+      <class name="com.tests.Registration">
+        <methods>
+          <include name="register"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.tests.Registration -->
     </classes>
-  </test> <!-- Basic Calc(failed) -->
+  </test> <!-- eBaySuite(failed) -->
 </suite> <!-- Failed suite [Basic Calc] -->

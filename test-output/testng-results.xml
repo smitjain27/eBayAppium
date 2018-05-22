@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Basic Calc" duration-ms="18055" started-at="2018-05-20T19:39:28Z" finished-at="2018-05-20T19:39:46Z">
+  <suite name="Basic Calc" duration-ms="192553" started-at="2018-05-22T20:40:04Z" finished-at="2018-05-22T20:43:17Z">
     <groups>
     </groups>
-    <test name="Basic Calc" duration-ms="18055" started-at="2018-05-20T19:39:28Z" finished-at="2018-05-20T19:39:46Z">
-      <class name="com.sm.name.ebayAppium.BasicCalc">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.sm.name.ebayAppium.BasicCalc@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2018-05-21T01:09:28Z" finished-at="2018-05-21T01:09:28Z">
+    <test name="eBaySuite" duration-ms="192553" started-at="2018-05-22T20:40:04Z" finished-at="2018-05-22T20:43:17Z">
+      <class name="com.tests.ProductPurchase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.ProductPurchase@14bf9759]" name="setUp" is-config="true" duration-ms="21858" started-at="2018-05-23T02:10:04Z" finished-at="2018-05-23T02:10:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testCal()[pri:0, instance:com.sm.name.ebayAppium.BasicCalc@4b9e13df]" name="testCal" duration-ms="15054" started-at="2018-05-21T01:09:28Z" finished-at="2018-05-21T01:09:43Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goToSignInPage()[pri:0, instance:com.tests.ProductPurchase@14bf9759]" name="goToSignInPage" duration-ms="70264" started-at="2018-05-23T02:10:26Z" finished-at="2018-05-23T02:11:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCal -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.sm.name.ebayAppium.BasicCalc@4b9e13df]" name="afterMethod" is-config="true" duration-ms="2971" started-at="2018-05-21T01:09:43Z" finished-at="2018-05-21T01:09:46Z">
+        </test-method> <!-- goToSignInPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.tests.ProductPurchase@14bf9759]" name="afterMethod" is-config="true" duration-ms="4058" started-at="2018-05-23T02:11:36Z" finished-at="2018-05-23T02:11:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- com.sm.name.ebayAppium.BasicCalc -->
-    </test> <!-- Basic Calc -->
+      </class> <!-- com.tests.ProductPurchase -->
+      <class name="com.tests.Registration">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.Registration@73ad2d6]" name="setUp" is-config="true" duration-ms="21365" started-at="2018-05-23T02:11:40Z" finished-at="2018-05-23T02:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="register()[pri:0, instance:com.tests.Registration@73ad2d6]" name="register" duration-ms="70966" started-at="2018-05-23T02:12:02Z" finished-at="2018-05-23T02:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.tests.Registration@73ad2d6]" name="afterMethod" is-config="true" duration-ms="4007" started-at="2018-05-23T02:13:13Z" finished-at="2018-05-23T02:13:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.tests.Registration -->
+    </test> <!-- eBaySuite -->
   </suite> <!-- Basic Calc -->
 </testng-results>

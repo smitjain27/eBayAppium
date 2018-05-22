@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Basic Calc">
+  <test verbose="2" name="eBaySuite">
+    <classes>
+      <class name="com.tests.ProductPurchase"/>
+      <class name="com.tests.Registration"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite>
