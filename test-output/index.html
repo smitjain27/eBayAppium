@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -36,8 +36,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Basic_Calc">
-              <span class="suite-name border-passed">Basic Calc</span>
+            <a href="#" class="navigator-link" panel-name="suite-eBaySuite">
+              <span class="suite-name border-failed">eBaySuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -47,37 +47,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Basic_Calc">
+                  <a href="#" class="navigator-link " panel-name="test-xml-eBaySuite">
                     <span>C:\Users\SMIT JAIN\git\eBayAppium\SuiteFiles\eBaySuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Basic_Calc">
+                  <a href="#" class="navigator-link " panel-name="testlist-eBaySuite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Basic_Calc">
+                  <a href="#" class="navigator-link " panel-name="group-eBaySuite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Basic_Calc">
+                  <a href="#" class="navigator-link " panel-name="times-eBaySuite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Basic_Calc">
+                  <a href="#" class="navigator-link " panel-name="reporter-eBaySuite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Basic_Calc">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-eBaySuite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Basic_Calc">
+                  <a href="#" class="navigator-link " panel-name="chronological-eBaySuite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -90,26 +90,35 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-eBaySuite" class="hide-methods failed suite-eBaySuite"> (hide)</a> <!-- hide-methods failed suite-eBaySuite -->
+                      <a href="#" panel-name="suite-eBaySuite" class="show-methods failed suite-eBaySuite"> (show)</a> <!-- show-methods failed suite-eBaySuite -->
+                    </span>
+                    <div class="method-list-content failed suite-eBaySuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-eBaySuite" title="com.tests.ProductPurchase" hash-for-method="purchaseProduct">purchaseProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-eBaySuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Basic_Calc" class="hide-methods passed suite-Basic_Calc"> (hide)</a> <!-- hide-methods passed suite-Basic_Calc -->
-                      <a href="#" panel-name="suite-Basic_Calc" class="show-methods passed suite-Basic_Calc"> (show)</a> <!-- show-methods passed suite-Basic_Calc -->
+                      <a href="#" panel-name="suite-eBaySuite" class="hide-methods passed suite-eBaySuite"> (hide)</a> <!-- hide-methods passed suite-eBaySuite -->
+                      <a href="#" panel-name="suite-eBaySuite" class="show-methods passed suite-eBaySuite"> (show)</a> <!-- show-methods passed suite-eBaySuite -->
                     </span>
-                    <div class="method-list-content passed suite-Basic_Calc">
+                    <div class="method-list-content passed suite-eBaySuite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Basic_Calc" title="com.tests.ProductPurchase" hash-for-method="goToSignInPage">goToSignInPage</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-eBaySuite" title="com.tests.Registration" hash-for-method="register">register</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Basic_Calc" title="com.tests.Registration" hash-for-method="register">register</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Basic_Calc -->
+                    </div> <!-- method-list-content passed suite-eBaySuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -120,23 +129,107 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Basic_Calc" class="panel Basic_Calc">
-          <div class="suite-Basic_Calc-class-passed">
+        <div panel-name="suite-eBaySuite" class="panel eBaySuite">
+          <div class="suite-eBaySuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.tests.ProductPurchase</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="goToSignInPage">
-                  </a> <!-- goToSignInPage -->
-                  <span class="method-name">goToSignInPage</span>
+                  <a name="purchaseProduct">
+                  </a> <!-- purchaseProduct -->
+                  <span class="method-name">purchaseProduct</span>
+                  <div class="stack-trace"><b>"org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: Locator map: 
+- native content: &quot;By.xpath: //android.widget.TextView[@text=&apos;ORIGINAL MI CHARGER FOR  XIAOMI REDMI NOTE 5/PRO 4 3, YI/LITE 2AMP Adapter+CABLE&apos;]&quot; 
+- html content: &quot;by id or name &quot;selectedProduct&quot;&quot;
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-P4UAKD7&apos;, ip: &apos;192.168.0.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: unknown
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:110)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:57)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$c0b591f0.toString(&lt;generated&gt;)
+	at java.lang.String.valueOf(Unknown Source)
+	at java.lang.StringBuilder.append(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:257)
+	at com.test.eBay.android.WebDriverWaitUtils.waitElementToBeVisible(WebDriverWaitUtils.java:90)
+	at com.pageobject.ebay.eBayProductDetail.purchaseProduct(eBayProductDetail.java:26)
+	at com.tests.ProductPurchase.purchaseProduct(ProductPurchase.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+<br/> org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: Locator map: 
+- native content: &quot;By.xpath: //android.widget.TextView[@text=&apos;ORIGINAL MI CHARGER FOR  XIAOMI REDMI NOTE 5/PRO 4 3, YI/LITE 2AMP Adapter+CABLE&apos;]&quot; 
+- html content: &quot;by id or name &quot;selectedProduct&quot;&quot;
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-P4UAKD7&apos;, ip: &apos;192.168.0.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: unknown
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:110)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:57)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$c0b591f0.toString(&lt;generated&gt;)
+	at java.lang.String.valueOf(Unknown Source)
+	at java.lang.StringBuilder.append(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:257)
+	at com.test.eBay.android.WebDriverWaitUtils.waitElementToBeVisible(WebDriverWaitUtils.java:90)
+	at com.pageobject.ebay.eBayProductDetail.purchaseProduct(eBayProductDetail.java:26)
+	at com.tests.ProductPurchase.purchaseProduct(ProductPurchase.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+"</b><br>io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:110)<br>io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:57)<br>io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$c0b591f0.toString(<generated>)<br>java.lang.String.valueOf(Unknown Source)<br>java.lang.StringBuilder.append(Unknown Source)<br>org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:293)<br>org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:257)<br>com.test.eBay.android.WebDriverWaitUtils.waitElementToBeVisible(WebDriverWaitUtils.java:90)<br>com.pageobject.ebay.eBayProductDetail.purchaseProduct(eBayProductDetail.java:26)<br>com.tests.ProductPurchase.purchaseProduct(ProductPurchase.java:31)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Basic_Calc-class-passed -->
-          <div class="suite-Basic_Calc-class-passed">
+          </div> <!-- suite-eBaySuite-class-failed -->
+          <div class="suite-eBaySuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.tests.Registration</span>
@@ -150,9 +243,9 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Basic_Calc-class-passed -->
-        </div> <!-- panel Basic_Calc -->
-        <div panel-name="test-xml-Basic_Calc" class="panel">
+          </div> <!-- suite-eBaySuite-class-passed -->
+        </div> <!-- panel eBaySuite -->
+        <div panel-name="test-xml-eBaySuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">C:\Users\SMIT JAIN\git\eBayAppium\SuiteFiles\eBaySuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -160,45 +253,45 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Basic Calc&quot;&gt;
-  &lt;test verbose=&quot;2&quot; name=&quot;eBaySuite&quot;&gt;
+&lt;suite name=&quot;eBaySuite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;eBayTest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.tests.ProductPurchase&quot;/&gt;
       &lt;class name=&quot;com.tests.Registration&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- eBaySuite --&gt;
-&lt;/suite&gt; &lt;!-- Basic Calc --&gt;
+  &lt;/test&gt; &lt;!-- eBayTest --&gt;
+&lt;/suite&gt; &lt;!-- eBaySuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Basic_Calc" class="panel">
+        <div panel-name="testlist-eBaySuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Basic Calc</span>
+            <span class="header-content">Tests for eBaySuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">eBaySuite (2 classes)</span>
+                <span class="test-name">eBayTest (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Basic_Calc" class="panel">
+        <div panel-name="group-eBaySuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Basic Calc</span>
+            <span class="header-content">Groups for eBaySuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Basic_Calc" class="panel">
+        <div panel-name="times-eBaySuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Basic Calc</span>
+            <span class="header-content">Times for eBaySuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Basic_Calc');
-function tableData_Basic_Calc() {
+suiteTableInitFunctions.push('tableData_eBaySuite');
+function tableData_eBaySuite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
@@ -206,70 +299,83 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'register')
-data.setCell(0, 2, 'com.tests.Registration')
-data.setCell(0, 3, 70966);
+data.setCell(0, 1, 'purchaseProduct')
+data.setCell(0, 2, 'com.tests.ProductPurchase')
+data.setCell(0, 3, 81541);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'goToSignInPage')
-data.setCell(1, 2, 'com.tests.ProductPurchase')
-data.setCell(1, 3, 70264);
-window.suiteTableData['Basic_Calc']= { tableData: data, tableDiv: 'times-div-Basic_Calc'}
+data.setCell(1, 1, 'register')
+data.setCell(1, 2, 'com.tests.Registration')
+data.setCell(1, 3, 63991);
+window.suiteTableData['eBaySuite']= { tableData: data, tableDiv: 'times-div-eBaySuite'}
 return data;
 }
               </script>
               <span class="suite-total-time">Total running time: 2 minutes</span>
-              <div id="times-div-Basic_Calc">
-              </div> <!-- times-div-Basic_Calc -->
+              <div id="times-div-eBaySuite">
+              </div> <!-- times-div-eBaySuite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Basic_Calc" class="panel">
+        <div panel-name="reporter-eBaySuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Basic Calc</span>
+            <span class="header-content">Reporter output for eBaySuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Basic_Calc" class="panel">
+        <div panel-name="ignored-methods-eBaySuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.tests.Registration</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">serverStart</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Basic_Calc" class="panel">
+        <div panel-name="chronological-eBaySuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.tests.ProductPurchase</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
+              <div class="configuration-suite before">
+                <span class="method-name">serverStart</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadDevices</span>
+                <span class="method-start">4232 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">goToSignInPage</span>
-                <span class="method-start">21858 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">purchaseProduct</span>
+                <span class="method-start">23954 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">92125 ms</span>
+                <span class="method-start">110610 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.tests.Registration</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">96187 ms</span>
+                <span class="method-name">loadDevices</span>
+                <span class="method-start">113800 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">register</span>
-                <span class="method-start">117552 ms</span>
+                <span class="method-start">133280 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">188520 ms</span>
+                <span class="method-start">197275 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

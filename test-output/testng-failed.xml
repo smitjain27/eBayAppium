@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Basic Calc]">
-  <test name="eBaySuite(failed)">
+<suite name="Failed suite [eBaySuite]">
+  <test name="eBayTest(failed)">
     <classes>
       <class name="com.tests.ProductPurchase">
         <methods>
-          <include name="beforeClass"/>
-          <include name="setUp"/>
+          <include name="serverStart"/>
+          <include name="purchaseProduct"/>
           <include name="afterMethod"/>
+          <include name="loadDevices"/>
         </methods>
       </class> <!-- com.tests.ProductPurchase -->
       <class name="com.tests.Registration">
         <methods>
-          <include name="register"/>
-          <include name="beforeClass"/>
           <include name="afterMethod"/>
+          <include name="loadDevices"/>
         </methods>
       </class> <!-- com.tests.Registration -->
     </classes>
-  </test> <!-- eBaySuite(failed) -->
-</suite> <!-- Failed suite [Basic Calc] -->
+  </test> <!-- eBayTest(failed) -->
+</suite> <!-- Failed suite [eBaySuite] -->

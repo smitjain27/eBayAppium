@@ -44,10 +44,14 @@ public class eBaySearchResult extends BaseClass {
 		for (WebElement webElement : relativeLayouts) {
 			List<WebElement> textViews = webElement.findElements(By.className("android.widget.TextView"));
 			for (WebElement webElement2 : textViews) {
-				if(webElement2.getText().contains("YI/LITE 2AMP Adapter"))
-				{
+				try{
+					if(webElement2.getText().contains("YI/LITE 2AMP Adapter")){
 					webElement2.click();
 					break;
+					}
+					}
+				catch(Exception e){
+					
 				}
 			}
 		}
